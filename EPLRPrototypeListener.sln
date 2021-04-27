@@ -9,7 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPLRPrototypeClient", "EPLR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeListenerTests", "PrototypeListenerTests\PrototypeListenerTests.csproj", "{62FDC145-A5E6-4A5B-9C49-9C85970279D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject2", "UnitTestProject2\UnitTestProject2.csproj", "{76B11922-FE5D-4129-ADB6-52DDD43CBCC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject2", "UnitTestProject2\UnitTestProject2.csproj", "{76B11922-FE5D-4129-ADB6-52DDD43CBCC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetsRepo", "NugetsRepo", "{DBB16868-4157-4500-94CA-413FE30308B3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\MyOwnNugetRepa\MyNuRepa\ClassLibF.1.0.0.nupkg = ..\..\..\..\..\MyOwnNugetRepa\MyNuRepa\ClassLibF.1.0.0.nupkg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

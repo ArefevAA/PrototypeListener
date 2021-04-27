@@ -74,12 +74,12 @@ namespace EPLRPrototypeListener
 
         public static int SquareCalc(int number)
         {
-            return number * number;
+            return ClassLibF.SimpleArithmometer.SquareCalc(number);
         }
 
         public static int IncCalc(int number)
         {
-            return ++number;
+            return ClassLibF.SimpleArithmometer.IncCalc(number);
         }
     }
 }
